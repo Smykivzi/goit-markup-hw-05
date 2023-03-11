@@ -457,13 +457,15 @@ body {
 }
 .exampl-item {
 	background: var(--white-pure-color);
-	border: 1px solid var(--white-second-color);
 }
 .exampl-item:hover {
 	box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .exampl-content {
 	padding: 32px 16px;
+	border-right: 1px solid var(--white-second-color);
+	border-left: 1px solid var(--white-second-color);
+	border-bottom: 1px solid var(--white-second-color);
 }
 .exampl-subtitle {
 	font-weight: 500;
