@@ -26,7 +26,7 @@
 				<nav class="header-navigation list">
 					<a class="header-logo" href="./index.html"><span>Web</span>Studio</a>
 					<ul class="header-list list">
-						<li class="header-list-item"><a href="#" class="header-link link">Studio</a></li>
+						<li class="header-list-item"><a href="./index.html" class="header-link link active">Studio</a></li>
 						<li class="header-list-item"><a href="./portfolio.html" class="header-link link">Portfolio</a></li>
 						<li class="header-list-item"><a href="#" class="header-link link">Contacts</a></li>
 					</ul>
@@ -44,7 +44,7 @@
 			<section class="hero">
 				<div class="hero-container">
 					<h1 class="hero-title">Effective Solutions for Your Business</h1>
-					<button type="button" class="hero-btn">Order Service</button>
+					<button type="button" data-modal-open class="hero-btn">Order Service</button>
 				</div>
 			</section>
 			<section class="methods">
@@ -330,5 +330,15 @@
 				</div>
 			</div>
 		</footer>
+		<div class="backdrop is-hidden" data-modal>
+			<div class="modal">
+					<button type="button" data-modal-close class="modal-close"><svg class="icon-close "width="8" height="8">
+					  <use href="./images/modal/symbol-defs.svg#icon-close"></use>
+					  </svg></button>
+			</div>
+		</div>
+		<script src="./js/modal.js"></script>
 	</body>
 </html>
+<svg class="icon-close "width="8" height="8">
+	<use href="./images/modal/symbol-defs.svg#icon-close"></use></svg>
